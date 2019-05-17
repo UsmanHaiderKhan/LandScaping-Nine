@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LandScaping-Nine", "LandScaping-Nine\", "{D8096A7F-41C2-4A73-B9BD-47372F31C442}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53960"
+		Debug.AspNetCompiler.PhysicalPath = "LandScaping-Nine\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53960\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53960"
+		Release.AspNetCompiler.PhysicalPath = "LandScaping-Nine\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53960\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53960"
+		SlnRelativePath = "LandScaping-Nine\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8096A7F-41C2-4A73-B9BD-47372F31C442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8096A7F-41C2-4A73-B9BD-47372F31C442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC2BC342-BBEE-4CB4-A7AC-65C0FB9A2DA0}
+	EndGlobalSection
+EndGlobal
