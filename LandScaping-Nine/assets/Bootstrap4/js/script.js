@@ -1,7 +1,6 @@
 ﻿//console.log("usman");
 
 /*================== Read More Text ==================*/
-
 $(function () {
     var showChar = 200;
     var moretext = "Read More +";
@@ -38,14 +37,11 @@ $(function () {
         return false;
     });
 });
-
-
 /*===================== Smooth Scrolling ======================*/
 $(function () {
     $('a').smoothScroll();
 });
 /*======================= Nav Active Class =======================*/
-
 $(function () {
     $('.nav-item').on('click',
         function () {
@@ -53,13 +49,12 @@ $(function () {
             $(this).addClass('active');
         });
 });
-
 /*===================== Load More Images ======================*/
 $(document).ready(function () {
 
     $('.loadMore').loadMoreResults({
-        displayedItems: 12,
-        showItems: 4
+        displayedItems: 6,
+        showItems: 3
     });
 
 
@@ -116,9 +111,9 @@ $(function () {
         margin: 20,
         dots: false,
         nav: true,
-        slideBy: 3,
-        item: 3,
-        navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
+        slideBy: 4,
+        item: 4,
+        navText: ["<i class='flaticon-last-track-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
         responsiveClass: true,
         responsive: {
             0: {
@@ -137,17 +132,17 @@ $(function () {
                 nav: true
             },
             768: {
-                items: 2,
+                items: 3,
                 dots: false,
                 nav: true
             },
             830: {
-                items: 2,
+                items: 3,
                 dots: false,
                 nav: true
             },
             1000: {
-                items: 3,
+                items: 4,
                 dots: false,
                 nav: true
             }
@@ -217,20 +212,6 @@ $(function () {
     });
 });
 
-//$(function () {
-//    $(document).scroll(function () {
-//        var $nav = $(".navbar");
-//        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//    });
-//    $(document).scroll(function () {
-//        var $nav = $(".nav-link");
-//        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//    });
-//    $(document).scroll(function () {
-//        var $nav = $(".active");
-//        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//    });
-//});
 
 /*===================== Another Load More Script ======================*/
 $(function () {
@@ -248,11 +229,6 @@ $(function () {
         }, 1500);
     });
 });
-
-
-
-
-
 
 /*=====================Active Class Script ======================*/
 $(function () {

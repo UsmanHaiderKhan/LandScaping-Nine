@@ -27,7 +27,7 @@
             showItems: 4,
             button: {
                 'class': 'btn-load-more mt-55 flaticon-arrow-down-sign-to-navigate',
-                text: 'View More'
+                text: 'Load More'
             }
         };
 
