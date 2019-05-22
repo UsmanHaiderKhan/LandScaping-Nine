@@ -64,43 +64,43 @@ $(document).ready(function () {
 $(function () {
     $('#owl-two').owlCarousel({
         loop: false,
-        margin: 20,
-        dots: false,
-        nav: true,
-        slideBy: 3,
-        item: 3,
-        navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
+        margin: 0,
+        dots: true,
+        nav: false,
+        slideBy: 1,
+        item: 1,
+
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                dots: false,
-                nav: true
+                dots: true,
+                nav: false
             },
             400: {
                 items: 1,
-                dots: false,
-                nav: true
+                dots: true,
+                nav: false
             },
             600: {
-                items: 2,
-                dots: false,
-                nav: true
+                items: 1,
+                dots: true,
+                nav: false
             },
             768: {
-                items: 2,
-                dots: false,
-                nav: true
+                items: 1,
+                dots: true,
+                nav: false
             },
-            830: {
-                items: 2,
-                dots: false,
-                nav: true
+            800: {
+                items: 1,
+                dots: true,
+                nav: false
             },
             1000: {
-                items: 3,
-                dots: false,
-                nav: true
+                items: 1,
+                dots: true,
+                nav: false
             }
         }
     });
@@ -118,13 +118,13 @@ $(function () {
         responsive: {
             0: {
                 items: 1,
-                dots: false,
-                nav: true
+                dots: true,
+                nav: false
             },
             400: {
                 items: 1,
-                dots: false,
-                nav: true
+                dots: true,
+                nav: false
             },
             600: {
                 items: 2,
@@ -199,11 +199,11 @@ $(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 100) {
-            $("#home nav").addClass("sleep fixed-top");
+            $("nav").addClass("sleep fixed-top");
 
         } else {
 
-            $("#home nav").removeClass(" sleep fixed-top ");
+            $(" nav").removeClass(" sleep fixed-top ");
 
 
         }
