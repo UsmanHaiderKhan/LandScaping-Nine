@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -20,7 +20,7 @@
     font-family: 'Font Bureau - HeronSans Regular';
     src: url('../../Fonts/Font Bureau - HeronSans Regular.otf') format('opentype');
 }
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -34,7 +34,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 #top-nav .fixed-top {
@@ -107,6 +107,12 @@ html, body {
     background-repeat: no-repeat;
 }
 
+.some {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .nav-setting-on-scroll {
     padding: 0px 20px !important;
@@ -358,7 +364,7 @@ nav {
 
 
 
-/*================================= 
+/*=================================
       About Section Styling
   =================================*/
 #expert {
@@ -417,6 +423,7 @@ nav {
 .expert-heading {
     font-size: 28px;
     color: #19600f;
+    text-transform: uppercase;
     font-family: 'Font Bureau - HeronSans SemiBold';
 }
 
@@ -432,7 +439,7 @@ nav {
     border: none;
     cursor: pointer;
 }
-/*================================= 
+/*=================================
        Service Section Styling
   =================================*/
 
@@ -466,7 +473,7 @@ nav {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-/*================================= 
+/*=================================
       Gallery Section Styling
   =================================*/
 #gallery {
@@ -539,7 +546,7 @@ nav {
     transform: translate(-50%, -50%);
     white-space: nowrap;
 }
-/*================================= 
+/*=================================
        Team Section Styling
   =================================*/
 #team-banner {
@@ -652,7 +659,7 @@ nav {
     left: -93px;
     bottom: 182px;
 }
-/*================================= 
+/*=================================
       Client Section Styling
   =================================*/
 .client-text {
@@ -723,7 +730,7 @@ nav {
     border-radius: 50%;
 }
 
-/*================================= 
+/*=================================
      Contact Section Styling
   =================================*/
 .contact-mobile {
@@ -761,7 +768,7 @@ nav {
     border-style: solid;
     border-radius: 50%;
 }
-/*================================= 
+/*=================================
       Contact Form Styling
   =================================*/
 
@@ -851,7 +858,7 @@ nav {
 
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1619,7 +1626,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
 
 
     .offset-md-3 {
@@ -1824,7 +1831,7 @@ button:focus {
 @media screen and (max-width: 800px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .offset-md-3 {
         margin-left: 0%;
     }
@@ -2024,7 +2031,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .d-none {
         display: block !important;
     }
@@ -2152,7 +2159,7 @@ button:focus {
 @media screen and (max-width: 411px) {
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .btn-service-bg {
         width: 154px;
     }
@@ -2174,7 +2181,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .btn-bg-gallery {
         width: 140px;
         height: 48px;
@@ -2207,7 +2214,7 @@ button:focus {
 @media screen and (max-width:1366px ) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 1280px) and (orientation: landscape) {
+@media screen and (max-width: 1282px) and (orientation: landscape) {
     #team-banner .owl-carousel .owl-nav .owl-next {
         position: absolute;
         right: -69px;
@@ -2232,7 +2239,7 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     #top-nav .fixed-top {
         left: 23%;
     }
@@ -2266,7 +2273,7 @@ button:focus {
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 740px) and (orientation: landscape) {
+@media screen and (max-width: 741px) and (orientation: landscape) {
     .navbar-toggler {
         padding: 0.25rem 0.75rem;
         /* font-size: 0rem; */
@@ -2281,7 +2288,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 736px) and (orientation: landscape) {
+@media screen and (max-width: 737px) and (orientation: landscape) {
     #top-nav .fixed-top {
         width: 100%;
         position: fixed;
@@ -2353,13 +2360,13 @@ button:focus {
 @media screen and (max-width: 731px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
+@media screen and (max-width: 668px) and (orientation: landscape) {
     #ser {
         padding: 50px 165px;
     }
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641px) and (orientation: landscape) {
     #ser {
         padding: 50px 160px;
     }
